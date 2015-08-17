@@ -24,11 +24,11 @@ namespace CSExercises
             {
                 Console.WriteLine("Total price for this order is {0}", (900 * x + 500 * y) * 0.85 + 700 * z);
             }
-            if (total >5000 && total <10000)
+            if (total >5000 && total <=10000)
             {
                 Console.WriteLine("Total price for this order is {0}", (900 * x + 500 * y) * 0.9 + 700 * z);
             }
-            if (total <5000)
+            if (total <=5000)
             {
                 Console.WriteLine("Total price for this order is {0}", total);
             }
