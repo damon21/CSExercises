@@ -23,7 +23,7 @@ namespace CSExercises
 
 
 
-            if (gender == "F")
+            else if (gender == "F")
             {
                 if (age >= 40)
                 {

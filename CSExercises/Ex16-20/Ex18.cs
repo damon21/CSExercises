@@ -18,15 +18,15 @@ namespace CSExercises
             {
                 Console.WriteLine("You scored {0} marks which is A grade", x);
             }
-            if (x >= 60 && x < 80)
+            else  if (x >= 60 && x < 80)
             {
                 Console.WriteLine("You scored {0} marks which is B grade", x);
             }
-            if (x >= 40 && x < 60)
+            else if (x >= 40 && x < 60)
             {
                 Console.WriteLine("You scored {0} marks which is C grade", x);
             }
-            if (x >= 0 && x < 40)
+            else if (x >= 0 && x < 40)
             {
                 Console.WriteLine("You scored {0} marks which is F grade", x);
             }
